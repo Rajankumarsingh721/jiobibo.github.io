@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<style type="text/css">
+	*{
+		margin: 0;
+		padding: 0;
+
+	}
+
+	body{
+		background-image: url(bg1.jpeg);
+		background-position: center;
+		background-size: cover;
+		font-family: sans-serif;
+		margin-top: 40px ;
+	}
+
+	.regform{
+		width: 800px;
+		background-color: rgb(0,0,0,0.6);
+		margin: auto;
+		color: #ffffff;
+		padding: 10px 0px 10px 0px;
+		text-align: center;
+		border-radius: 15px 15px 0px 0px;
+
+	}
+	.main{
+		background-color: rgb(0,0,0,0.5);
+		width: 800px;
+		margin: auto;
+	}
+	form{
+		padding: 10px;
+	}
+	#name{
+		width: 100%;
+		height: 80px;
+	}
+	.name{
+		margin-left: 25px;
+		margin-top: 28px;
+		width: 159px;
+		color:#ffffff;
+		font-size: 18px;
+		font-weight: 700;
+
+	}
+
+	.raj{
+		margin-left: 94px;
+		color:#ffffff;
+		font-size: 16px;
+		
+	}
+	.firstname{
+		position: relative;
+		left: 200px;
+		top: -33px;
+		line-height: 40px;
+		border-radius: 30px;
+		padding: 0 33px;
+		font-size: 14px;
+
+	}
+	.lastname{
+		position: relative;
+		left: 417px;
+		top: -80px;
+		line-height: 40px;
+		border-radius: 30px;
+		padding: 0 33px;
+		font-size: 14px;
+		color: #555;
+	}
+
+	.firstlabel{ 
+		position: relative;
+		color: #E5E5E5;
+		text-transform: capitalize;
+		font-size: 14px;
+		left: 506px;
+		top: -45px;
+	}
+
+	.lastlabel{
+		position: relative;
+		color: #E5E5E5;
+		text-transform: capitalize;
+		font-size: 14px;
+		left:-95px;
+		top: -45px;
+	}
+.company{
+	position: relative;
+	left: 200px;
+	top: -36px;
+	line-height: 40px;
+	width: 480px;
+	border-radius: 30px;
+	padding: 0 22px;
+	font-size: 14px;
+	color: #555;
+}
+
+.email{
+	position: relative;
+	left: 200px;
+	top: -36px;
+	line-height: 40px;
+	width: 480px;
+	border-radius: 30px;
+	padding: 0 22px;
+	font-size: 14px;
+	color: #555;
+}
+.rajan{
+	position: relative;
+	left: 195px;
+	top: -36px;
+	line-height: 40px;
+	width: 350px;
+	border-radius: 30px;
+	padding: 0 84px;
+	font-size: 14px;
+	color: #555;
+}
+
+.address{
+	position: relative;
+	left: 200px;
+	top: -36px;
+	line-height: 40px;
+	width: 480px;
+	border-radius: 30px;
+	padding: 0 22px;
+	font-size: 164x;
+	color: #555;
+
+}
+
+.code{
+	position: relative;
+	left: 200px;
+	top: -36px;
+	line-height: 40px;
+	width: 205px;
+	border-radius: 30px;
+	padding: 0 22px;
+	font-size: 14px;
+	color: #555;
+}
+.number{
+	position: relative;
+	left: 117px;
+	top: -36px;
+	line-height: 40px;
+	width: 205px;
+	border-radius: 30px;
+	padding: 0 22px;
+	font-size: 14px;
+	color: #555;
+}
+
+.area-code{
+	position: relative;
+	color: #E5E5E5;
+	text-transform: capitalize;
+	font-size: 14px;
+	left: -33px;
+	top: -4px;
+}
+.phone-number{
+	position: relative;
+	color: #E5E5E5;
+	text-transform: capitalize;
+	font-size: 14px;
+	left: -117px;
+	top: -2px;
+}
+.option{
+	position: relative;
+	left: 205px;
+	top: -37px;
+	line-height: 40px;
+	width: 244px;
+	height: 40px;
+	border-radius: 30px;
+	padding: 0 22px;
+	font-size: 14px;
+	color: #555;
+	outline: none;
+	overflow: hidden;
+}
+
+.option1{
+	position: relative;
+	left: 234px;
+	top: -37px;
+	line-height: 40px;
+	width: 244px;
+	height: 40px;
+	border-radius: 30px;
+	padding: 0 22px;
+	font-size: 14px;
+	color: #555;
+	outline: none;
+	overflow: hidden;
+}
+.option option{
+	font-size: 20px;
+}
+#coustomer{
+	margin-left: 25px;
+	color: white;
+	font-size: 14px;
+}
+
+button{
+	background-color: #3baf7f78;
+	display: block;
+	margin: 20px 0px 0px 20px;
+	text-align: center;
+	border-radius:30px;
+	border: 2px solid #366473;
+	padding: 14px 110px;
+	outline: none;
+	color:white;
+	cursor: pointer;
+	transition: 0.25px;
+	width: 100%;
+
+}
+
+button:hover{ 
+background-color: #42af3b78; 
+ }
+
+ img {
+  width: 150px;
+  height: 55px;
+  float: left;
+  color: #555;
+}
+
+
+
+</style>
+
+
+	
+
+</head>
+<body>
+	<div class="regform">
+		<img src="logo.png" alt="Flowers in Chania">
+		<h1>Welecome To Joibibo</h1>
+	</div>
+	<div class="main">
+		<form>
+			<div id="name">
+				<h2 class="name">Contact Person</h2>
+
+				<input class="firstname" type="text" name="first_name" required><br>
+				<label class="firstlabel">Last Name </label>
+				<input class="lastname" type="text" name="last_name" required>
+				<label class="lastlabel">First name</label>	
+			</div>
+
+<h2 class="name">Business Name</h2>
+<input class="company" type="text" name="company" required>
+
+		<h2 class="name">Business Email Id</h2>
+		<input class="email" type="text" name="email" required>
+
+		<h2 class="name">Location</h2>
+		<input  class="address" type="text" name="address" required>
+
+		<h2 class="name"> Contact Number</h2>
+		<input class="code" type="text" name="area_code"required>
+		<label class="area-code">Mobile Number</label>
+		<input class="number" type="text" name="phone">
+		<label class="phone-number"> Telephone Number</label>
+
+		<h2 class="name">Services</h2>
+		<select class="option" name="services" required>
+			<option disabled="disabled" selected="selected">--Choose --</option>
+			<option>Joibibo Hotel</option>
+			<option>Joibibo Cab</option>
+			<option>Real State Services</option>
+			<option>Manpower Services</option>
+			
+		</select>
+
+		<select class="option1" name="services" required>
+			<option disabled="disabled" selected="selected">--Choose Package--</option>
+			<option> Silver Package</option>
+			<option>Gold Package</option>
+			<option>Platinum Package</option>
+			<option>Platinum Offer</option>
+			
+		</select><br><br>
+<h2 class="name">Business</h2>
+<textarea class="rajan" name="message" rows="5" cols="20">Write a Business Description</textarea>
+
+
+  <input type="file" id="img" name="img" multiple="multiple/*"required>
+  <br><p class="raj"> India's first Listing And Booking</p>
+
+
+<button type="submit">Submit</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</form>
+	</div>
+
+</body>
+</html>
